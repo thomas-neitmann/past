@@ -1,0 +1,14 @@
+Package: past
+Type: Package
+Title: Revive the Past with 'stringsAsFactors = TRUE'
+Version: 0.1.0
+Author: Thomas Neitmann
+Maintainer: Thomas Neitmann <th.neitmann@gmail.com>
+Description: Provides drop in replacements for all functions with a
+    'stringsAsFactors' argument which is set to 'TRUE' by default as
+    was the case in R prior to the 4.0.0 release.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
