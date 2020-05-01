@@ -42,7 +42,7 @@ is.factor(iris2$Species)
 After calling `library(past)` unless you explicitly specify `stringsAsFactors = FALSE` it will default to `TRUE`.
 
 ```{r}
-library(past)
+library(past, warn.conflicts = FALSE)
 iris3 <- read.csv(file)
 is.factor(iris3$Species)
 ```

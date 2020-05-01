@@ -44,21 +44,7 @@ is.factor(iris2$Species)
 After calling `library(past)` unless you explicitly specify `stringsAsFactors = FALSE` it will default to `TRUE`.
 
 ``` r
-library(past)
-```
-
-    ## 
-    ## Attaching package: 'past'
-
-    ## The following objects are masked from 'package:utils':
-    ## 
-    ##     read.csv, read.csv2, read.delim, read.delim2, read.table
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     as.data.frame, data.frame
-
-``` r
+library(past, warn.conflicts = FALSE)
 iris3 <- read.csv(file)
 is.factor(iris3$Species)
 ```
